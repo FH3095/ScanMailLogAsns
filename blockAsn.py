@@ -10,7 +10,7 @@ def getCidrLinesForAsn(asn):
 	if os.path.isfile(filePath):
 		with open(filePath, mode='rt') as f:
 			data = json.load(f)
-			result = result + str(data['handle']) + ' ' + str(data['description'])
+			result = result + '# ' + str(data['handle']) + ' ' + str(data['description']) + '\n'
 			if 'subnets' in data and 'ipv4' in data['subnets']:
 				for ip4 in data['subnets']['ipv4']:
 					result = result + ip4 + '\t' + IP_LINE + '\n'
