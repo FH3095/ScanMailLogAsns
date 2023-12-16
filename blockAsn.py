@@ -2,7 +2,7 @@
 
 import sys, os, json, gzip
 
-REJECT_MSG = 'REJECT ASN {0} is blocked due to repeated password guesses'
+IP_LINE = 'auth silent-discard'
 
 def getCidrLinesForAsn(asn):
 	result = '# ASN ' + str(asn) + '\n'
@@ -12,7 +12,7 @@ def getCidrLinesForAsn(asn):
 			data = json.load(f)
 			if 'subnets' in data and 'ipv4' in data['subnets']:
 				for ip4 in data['subnets']['ipv4']:
-					result = result + ip4 + '\t' + REJECT_MSG.format(str(asn)) + '\n'
+					result = result + ip4 + '\t' + IP_LINE + '\n'
 	result = result + '\n'
 	return result
 
