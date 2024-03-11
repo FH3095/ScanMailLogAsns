@@ -1,5 +1,9 @@
 #!/bin/sh
 
+oldcwd="$(pwd)"
+cd "$(cd -P -- "$(dirname -- "$0")" && pwd -P)"
+
+
 echo "### UPDATE"
 git pull
 
@@ -15,3 +19,5 @@ echo "### UPDATE CIDR"
 ./convertAsn.py
 ./blockAsn.py
 cp blockedAsns.cidr /etc/postfix/blockedAsns.cidr
+
+cd "$oldcwd"
