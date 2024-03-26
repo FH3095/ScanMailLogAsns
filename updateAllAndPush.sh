@@ -10,3 +10,5 @@ cp blockedAsns.cidr blockedAsns.cidr.example
 today="$(date --utc --iso-8601=date)"
 git commit -m "Regular update $today" blockedAsns.json.example blockedAsns.cidr.example
 git push
+
+cd "$oldcwd"
