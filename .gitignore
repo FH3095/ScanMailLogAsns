@@ -1,2 +1,4 @@
 /*.json.gz
 /asn-ip/
+/blockedAsns.json
+/blockedAsns.cidr
