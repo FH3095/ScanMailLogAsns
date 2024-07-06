@@ -787,6 +787,7 @@
 153.99.0.0/16	auth silent-discard
 153.101.0.0/16	auth silent-discard
 157.0.0.0/16	auth silent-discard
+160.202.60.0/22	auth silent-discard
 171.34.0.0/15	auth silent-discard
 171.36.0.0/14	auth silent-discard
 171.116.0.0/14	auth silent-discard
@@ -1174,6 +1175,7 @@
 129.192.200.0/23	auth silent-discard
 139.181.49.0/24	auth silent-discard
 147.6.0.0/16	auth silent-discard
+156.240.56.0/24	auth silent-discard
 160.202.160.0/24	auth silent-discard
 161.195.135.0/24	auth silent-discard
 163.213.0.0/16	auth silent-discard
@@ -1408,7 +1410,7 @@
 220.66.38.0/23	auth silent-discard
 220.66.40.0/22	auth silent-discard
 220.66.44.0/24	auth silent-discard
-220.66.46.0/24	auth silent-discard
+220.66.46.0/23	auth silent-discard
 220.66.50.0/23	auth silent-discard
 220.66.52.0/23	auth silent-discard
 220.66.54.0/24	auth silent-discard
@@ -1568,6 +1570,7 @@
 43.255.200.0/22	auth silent-discard
 45.124.20.0/22	auth silent-discard
 45.127.144.0/21	auth silent-discard
+45.254.8.0/23	auth silent-discard
 54.222.60.0/22	auth silent-discard
 58.68.234.0/24	auth silent-discard
 58.68.236.0/24	auth silent-discard
@@ -1740,13 +1743,11 @@
 118.194.240.0/21	auth silent-discard
 118.199.0.0/16	auth silent-discard
 118.247.0.0/16	auth silent-discard
-119.18.192.0/20	auth silent-discard
 119.80.0.0/21	auth silent-discard
 119.80.8.0/22	auth silent-discard
 119.80.160.0/23	auth silent-discard
 119.80.162.0/24	auth silent-discard
 119.161.120.0/22	auth silent-discard
-119.161.168.0/22	auth silent-discard
 119.253.32.0/19	auth silent-discard
 119.253.64.0/19	auth silent-discard
 120.52.31.0/24	auth silent-discard
@@ -2325,7 +2326,6 @@
 200.153.0.0/17	auth silent-discard
 200.159.0.0/17	auth silent-discard
 200.162.5.0/24	auth silent-discard
-200.162.8.0/24	auth silent-discard
 200.162.11.0/24	auth silent-discard
 200.162.22.0/24	auth silent-discard
 200.162.36.0/24	auth silent-discard
@@ -2543,7 +2543,6 @@
 80.94.92.0/23	auth silent-discard
 92.118.39.0/24	auth silent-discard
 140.228.17.0/24	auth silent-discard
-140.228.18.0/23	auth silent-discard
 140.228.20.0/24	auth silent-discard
 141.140.0.0/22	auth silent-discard
 154.214.196.0/22	auth silent-discard
@@ -2562,7 +2561,6 @@
 193.47.69.0/24	auth silent-discard
 200.229.31.0/24	auth silent-discard
 207.182.48.0/20	auth silent-discard
-216.24.221.0/24	auth silent-discard
 
 # ASN 48090
 # PPTECHNOLOGY PPTECHNOLOGY LIMITED
@@ -2577,13 +2575,6 @@
 
 # ASN 209605
 # HOSTBALTIC UAB Host Baltic
-91.224.92.0/24	auth silent-discard
-141.98.8.0/24	auth silent-discard
-141.98.10.0/23	auth silent-discard
-185.36.81.0/24	auth silent-discard
-185.169.4.0/24	auth silent-discard
-193.31.6.0/24	auth silent-discard
-194.169.175.0/24	auth silent-discard
 
 # ASN 12389
 # ROSTELECOM PJSC Rostelecom
@@ -2604,7 +2595,6 @@
 37.19.32.0/20	auth silent-discard
 37.19.48.0/21	auth silent-discard
 37.20.0.0/14	auth silent-discard
-37.72.176.0/21	auth silent-discard
 37.76.128.0/18	auth silent-discard
 37.78.0.0/15	auth silent-discard
 45.80.64.0/22	auth silent-discard
@@ -2647,7 +2637,6 @@
 46.158.0.0/15	auth silent-discard
 46.235.160.0/21	auth silent-discard
 46.235.216.0/21	auth silent-discard
-46.235.248.0/21	auth silent-discard
 46.237.0.0/19	auth silent-discard
 46.237.32.0/21	auth silent-discard
 46.237.48.0/20	auth silent-discard
@@ -3337,7 +3326,6 @@
 194.0.112.0/22	auth silent-discard
 194.38.9.0/24	auth silent-discard
 194.99.116.0/24	auth silent-discard
-194.135.144.0/21	auth silent-discard
 194.146.240.0/22	auth silent-discard
 194.150.140.0/24	auth silent-discard
 194.165.22.0/23	auth silent-discard
@@ -3443,10 +3431,6 @@
 217.22.172.0/23	auth silent-discard
 217.23.16.0/20	auth silent-discard
 217.24.112.0/20	auth silent-discard
-217.64.132.0/22	auth silent-discard
-217.64.136.0/22	auth silent-discard
-217.64.140.0/23	auth silent-discard
-217.64.143.0/24	auth silent-discard
 217.65.80.0/20	auth silent-discard
 217.70.96.0/19	auth silent-discard
 217.106.32.0/24	auth silent-discard
