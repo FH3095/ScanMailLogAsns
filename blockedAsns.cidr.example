@@ -2253,7 +2253,6 @@
 
 # ASN 9829
 # BSNL-NIB Bharat Sanchar Nigam Ltd
-23.6.208.0/20	auth silent-discard
 23.34.252.0/22	auth silent-discard
 23.47.126.0/24	auth silent-discard
 23.48.225.0/24	auth silent-discard
@@ -2276,11 +2275,9 @@
 120.56.0.0/16	auth silent-discard
 120.60.0.0/15	auth silent-discard
 160.30.8.0/24	auth silent-discard
-173.223.208.0/20	auth silent-discard
 182.60.0.0/16	auth silent-discard
 184.25.108.0/24	auth silent-discard
 184.26.184.0/22	auth silent-discard
-184.27.142.0/23	auth silent-discard
 184.51.92.0/22	auth silent-discard
 184.84.167.0/24	auth silent-discard
 210.212.0.0/16	auth silent-discard
@@ -2433,7 +2430,8 @@
 114.136.0.0/15	auth silent-discard
 116.59.0.0/24	auth silent-discard
 116.59.2.0/24	auth silent-discard
-116.59.8.0/21	auth silent-discard
+116.59.8.0/24	auth silent-discard
+116.59.12.0/22	auth silent-discard
 116.59.24.0/21	auth silent-discard
 116.59.48.0/20	auth silent-discard
 116.59.64.0/18	auth silent-discard
