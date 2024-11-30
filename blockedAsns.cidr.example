@@ -438,7 +438,6 @@
 43.227.104.0/22	auth silent-discard
 43.239.120.0/22	auth silent-discard
 43.240.56.0/22	auth silent-discard
-43.240.72.0/22	auth silent-discard
 43.240.156.0/22	auth silent-discard
 43.240.204.0/22	auth silent-discard
 43.241.16.0/22	auth silent-discard
@@ -1385,7 +1384,7 @@
 217.60.11.0/24	auth silent-discard
 217.60.13.0/24	auth silent-discard
 217.60.15.0/24	auth silent-discard
-217.60.24.0/21	auth silent-discard
+217.60.28.0/22	auth silent-discard
 218.38.144.0/24	auth silent-discard
 218.48.5.0/24	auth silent-discard
 218.48.10.0/24	auth silent-discard
@@ -2506,7 +2505,7 @@
 103.197.184.0/23	auth silent-discard
 103.237.96.0/22	auth silent-discard
 103.238.214.0/23	auth silent-discard
-103.255.238.0/23	auth silent-discard
+103.255.239.0/24	auth silent-discard
 113.160.0.0/11	auth silent-discard
 123.16.0.0/13	auth silent-discard
 123.24.0.0/14	auth silent-discard
@@ -2589,7 +2588,8 @@
 80.94.92.0/23	auth silent-discard
 80.94.94.0/24	auth silent-discard
 92.118.39.0/24	auth silent-discard
-141.140.0.0/22	auth silent-discard
+141.140.1.0/24	auth silent-discard
+141.140.2.0/23	auth silent-discard
 154.214.198.0/24	auth silent-discard
 154.214.205.0/24	auth silent-discard
 154.214.213.0/24	auth silent-discard
@@ -2608,7 +2608,7 @@
 207.182.48.0/20	auth silent-discard
 
 # ASN 48090
-# DMZHOST PPTECHNOLOGY LIMITED
+# DMZHOST TECHOFF SRV LIMITED
 45.148.10.0/24	auth silent-discard
 195.178.110.0/24	auth silent-discard
 
@@ -2701,7 +2701,7 @@
 62.183.102.0/24	auth silent-discard
 62.183.112.0/23	auth silent-discard
 62.183.115.0/24	auth silent-discard
-62.183.116.0/24	auth silent-discard
+62.183.116.0/22	auth silent-discard
 62.183.124.0/22	auth silent-discard
 62.192.224.0/19	auth silent-discard
 62.213.0.0/19	auth silent-discard
@@ -2786,6 +2786,9 @@
 78.40.184.0/21	auth silent-discard
 78.81.0.0/16	auth silent-discard
 78.85.0.0/16	auth silent-discard
+78.111.242.0/23	auth silent-discard
+78.111.244.0/22	auth silent-discard
+78.111.248.0/21	auth silent-discard
 78.132.160.0/19	auth silent-discard
 78.132.192.0/20	auth silent-discard
 78.132.212.0/22	auth silent-discard
