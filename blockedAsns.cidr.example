@@ -948,6 +948,12 @@
 14.64.0.0/11	auth silent-discard
 14.128.128.0/19	auth silent-discard
 14.128.160.0/22	auth silent-discard
+23.133.132.0/24	auth silent-discard
+23.133.148.0/24	auth silent-discard
+23.133.244.0/24	auth silent-discard
+23.134.4.0/24	auth silent-discard
+23.134.196.0/24	auth silent-discard
+23.134.220.0/24	auth silent-discard
 27.96.136.0/21	auth silent-discard
 27.232.0.0/13	auth silent-discard
 27.255.64.0/24	auth silent-discard
@@ -983,6 +989,7 @@
 59.107.228.0/22	auth silent-discard
 59.107.236.0/22	auth silent-discard
 59.107.244.0/22	auth silent-discard
+59.107.248.0/22	auth silent-discard
 61.36.233.0/24	auth silent-discard
 61.36.234.0/23	auth silent-discard
 61.36.236.0/24	auth silent-discard
@@ -2645,6 +2652,7 @@
 193.32.162.0/24	auth silent-discard
 193.46.254.0/23	auth silent-discard
 193.47.69.0/24	auth silent-discard
+200.229.31.0/24	auth silent-discard
 207.182.48.0/21	auth silent-discard
 207.182.56.0/22	auth silent-discard
 
@@ -2684,10 +2692,7 @@
 31.180.0.0/15	auth silent-discard
 31.192.162.0/24	auth silent-discard
 31.204.96.0/20	auth silent-discard
-37.1.64.0/21	auth silent-discard
-37.1.72.0/23	auth silent-discard
-37.1.75.0/24	auth silent-discard
-37.1.76.0/22	auth silent-discard
+37.1.64.0/20	auth silent-discard
 37.19.32.0/20	auth silent-discard
 37.19.48.0/21	auth silent-discard
 37.20.0.0/14	auth silent-discard
@@ -3016,7 +3021,8 @@
 87.224.177.0/24	auth silent-discard
 87.224.186.0/24	auth silent-discard
 87.224.191.0/24	auth silent-discard
-87.224.192.0/22	auth silent-discard
+87.224.192.0/23	auth silent-discard
+87.224.194.0/24	auth silent-discard
 87.224.197.0/24	auth silent-discard
 87.224.198.0/23	auth silent-discard
 87.224.200.0/24	auth silent-discard
@@ -3120,7 +3126,8 @@
 90.157.76.0/23	auth silent-discard
 90.157.84.0/22	auth silent-discard
 90.157.88.0/21	auth silent-discard
-90.157.96.0/22	auth silent-discard
+90.157.96.0/24	auth silent-discard
+90.157.98.0/23	auth silent-discard
 90.157.100.0/24	auth silent-discard
 90.157.103.0/24	auth silent-discard
 90.157.104.0/24	auth silent-discard
@@ -3131,10 +3138,7 @@
 90.157.123.0/24	auth silent-discard
 90.157.124.0/24	auth silent-discard
 90.188.0.0/15	auth silent-discard
-91.106.232.0/23	auth silent-discard
-91.106.234.0/24	auth silent-discard
-91.106.236.0/23	auth silent-discard
-91.106.238.0/24	auth silent-discard
+91.106.232.0/21	auth silent-discard
 91.122.0.0/16	auth silent-discard
 91.147.0.0/18	auth silent-discard
 91.185.232.0/21	auth silent-discard
@@ -3179,8 +3183,6 @@
 94.31.137.0/24	auth silent-discard
 94.31.138.0/23	auth silent-discard
 94.31.142.0/24	auth silent-discard
-94.31.144.0/24	auth silent-discard
-94.31.146.0/24	auth silent-discard
 94.31.150.0/24	auth silent-discard
 94.31.153.0/24	auth silent-discard
 94.31.154.0/23	auth silent-discard
@@ -3433,7 +3435,6 @@
 188.73.146.0/24	auth silent-discard
 188.73.148.0/24	auth silent-discard
 188.73.150.0/24	auth silent-discard
-188.73.159.0/24	auth silent-discard
 188.73.160.0/24	auth silent-discard
 188.73.163.0/24	auth silent-discard
 188.73.173.0/24	auth silent-discard
@@ -3445,6 +3446,7 @@
 188.133.192.0/18	auth silent-discard
 188.254.0.0/17	auth silent-discard
 193.31.0.0/24	auth silent-discard
+193.35.34.0/24	auth silent-discard
 193.47.87.0/24	auth silent-discard
 193.228.108.0/22	auth silent-discard
 194.0.112.0/22	auth silent-discard
@@ -3524,7 +3526,6 @@
 213.135.154.0/23	auth silent-discard
 213.135.156.0/22	auth silent-discard
 213.142.43.0/24	auth silent-discard
-213.142.48.0/24	auth silent-discard
 213.142.50.0/24	auth silent-discard
 213.142.52.0/23	auth silent-discard
 213.142.59.0/24	auth silent-discard
@@ -3540,7 +3541,6 @@
 213.189.210.0/24	auth silent-discard
 213.189.215.0/24	auth silent-discard
 213.210.73.0/24	auth silent-discard
-213.210.112.0/24	auth silent-discard
 213.228.64.0/18	auth silent-discard
 213.242.0.0/18	auth silent-discard
 217.9.144.0/20	auth silent-discard
