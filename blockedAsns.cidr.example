@@ -444,7 +444,6 @@
 43.243.228.0/22	auth silent-discard
 43.247.4.0/24	auth silent-discard
 43.248.108.0/22	auth silent-discard
-43.248.184.0/21	auth silent-discard
 43.248.244.0/22	auth silent-discard
 43.249.136.0/22	auth silent-discard
 43.249.236.0/22	auth silent-discard
@@ -1447,7 +1446,7 @@
 220.66.234.0/24	auth silent-discard
 220.66.242.0/24	auth silent-discard
 220.66.244.0/22	auth silent-discard
-220.66.248.0/23	auth silent-discard
+220.66.249.0/24	auth silent-discard
 220.66.250.0/24	auth silent-discard
 220.67.70.0/23	auth silent-discard
 220.67.72.0/21	auth silent-discard
@@ -1463,6 +1462,7 @@
 220.67.151.0/24	auth silent-discard
 220.67.152.0/22	auth silent-discard
 220.67.156.0/24	auth silent-discard
+220.67.171.0/24	auth silent-discard
 220.67.178.0/23	auth silent-discard
 220.67.180.0/24	auth silent-discard
 220.67.182.0/23	auth silent-discard
@@ -1494,6 +1494,7 @@
 220.69.80.0/20	auth silent-discard
 220.69.96.0/21	auth silent-discard
 220.69.104.0/24	auth silent-discard
+220.69.106.0/23	auth silent-discard
 220.69.168.0/22	auth silent-discard
 220.69.172.0/24	auth silent-discard
 220.69.215.0/24	auth silent-discard
@@ -1519,8 +1520,7 @@
 220.149.160.0/22	auth silent-discard
 220.149.176.0/24	auth silent-discard
 220.149.179.0/24	auth silent-discard
-220.149.180.0/24	auth silent-discard
-220.149.182.0/23	auth silent-discard
+220.149.180.0/22	auth silent-discard
 220.149.185.0/24	auth silent-discard
 220.149.186.0/24	auth silent-discard
 220.149.208.0/21	auth silent-discard
@@ -1549,6 +1549,7 @@
 
 # ASN 4808
 # CHINA169-BJ China Unicom Beijing Province Network
+1.119.178.0/23	auth silent-discard
 1.119.192.0/21	auth silent-discard
 1.119.200.0/22	auth silent-discard
 1.119.208.0/22	auth silent-discard
@@ -1630,11 +1631,9 @@
 103.2.108.0/24	auth silent-discard
 103.3.120.0/22	auth silent-discard
 103.10.84.0/22	auth silent-discard
-103.17.40.0/22	auth silent-discard
 103.19.46.0/23	auth silent-discard
 103.19.64.0/22	auth silent-discard
 103.25.24.0/22	auth silent-discard
-103.26.0.0/22	auth silent-discard
 103.29.16.0/24	auth silent-discard
 103.30.148.0/24	auth silent-discard
 103.37.136.0/21	auth silent-discard
@@ -1688,19 +1687,11 @@
 103.205.188.0/22	auth silent-discard
 103.213.64.0/19	auth silent-discard
 103.219.184.0/22	auth silent-discard
-103.227.76.0/22	auth silent-discard
-103.227.80.0/22	auth silent-discard
 103.228.204.0/23	auth silent-discard
 103.230.212.0/22	auth silent-discard
-103.231.64.0/21	auth silent-discard
 103.233.128.0/22	auth silent-discard
 103.233.162.0/23	auth silent-discard
 103.234.20.0/22	auth silent-discard
-103.235.220.0/22	auth silent-discard
-103.235.224.0/20	auth silent-discard
-103.235.244.0/22	auth silent-discard
-103.235.248.0/21	auth silent-discard
-103.237.8.0/22	auth silent-discard
 103.237.248.0/23	auth silent-discard
 103.238.0.0/21	auth silent-discard
 103.238.144.0/22	auth silent-discard
@@ -1715,7 +1706,6 @@
 103.244.232.0/22	auth silent-discard
 103.248.224.0/22	auth silent-discard
 103.249.52.0/22	auth silent-discard
-103.249.252.0/22	auth silent-discard
 103.252.36.0/24	auth silent-discard
 103.254.68.0/22	auth silent-discard
 106.3.96.0/22	auth silent-discard
@@ -2036,7 +2026,6 @@
 211.154.10.0/24	auth silent-discard
 211.154.192.0/18	auth silent-discard
 211.155.32.0/19	auth silent-discard
-211.155.80.0/20	auth silent-discard
 211.155.160.0/21	auth silent-discard
 211.155.240.0/20	auth silent-discard
 211.157.0.0/19	auth silent-discard
@@ -2410,6 +2399,8 @@
 177.18.222.0/24	auth silent-discard
 177.24.192.0/21	auth silent-discard
 177.25.0.0/18	auth silent-discard
+177.97.208.0/21	auth silent-discard
+177.98.228.0/23	auth silent-discard
 177.147.192.0/18	auth silent-discard
 177.160.64.0/18	auth silent-discard
 179.144.224.0/19	auth silent-discard
