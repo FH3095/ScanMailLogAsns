@@ -713,6 +713,7 @@
 122.192.0.0/14	auth silent-discard
 123.4.0.0/14	auth silent-discard
 123.8.0.0/13	auth silent-discard
+123.108.89.0/24	auth silent-discard
 123.117.141.0/24	auth silent-discard
 123.125.29.0/24	auth silent-discard
 123.128.0.0/13	auth silent-discard
@@ -2032,6 +2033,7 @@
 125.214.0.0/20	auth silent-discard
 125.214.28.0/22	auth silent-discard
 125.214.35.0/24	auth silent-discard
+125.214.36.0/24	auth silent-discard
 125.214.47.0/24	auth silent-discard
 125.234.0.0/15	auth silent-discard
 171.224.0.0/11	auth silent-discard
@@ -2103,6 +2105,8 @@
 119.196.25.0/24	auth silent-discard
 119.196.26.0/23	auth silent-discard
 121.124.0.0/15	auth silent-discard
+122.99.235.0/24	auth silent-discard
+122.99.236.0/24	auth silent-discard
 122.99.238.0/24	auth silent-discard
 123.111.0.0/16	auth silent-discard
 123.212.0.0/14	auth silent-discard
@@ -2276,7 +2280,7 @@
 59.90.0.0/17	auth silent-discard
 59.90.128.0/20	auth silent-discard
 59.90.144.0/21	auth silent-discard
-59.90.152.0/22	auth silent-discard
+59.90.152.0/23	auth silent-discard
 59.90.157.0/24	auth silent-discard
 59.90.158.0/24	auth silent-discard
 59.90.160.0/19	auth silent-discard
@@ -2294,7 +2298,16 @@
 104.95.97.0/24	auth silent-discard
 104.95.190.0/24	auth silent-discard
 104.118.7.0/24	auth silent-discard
-117.192.0.0/11	auth silent-discard
+117.192.0.0/12	auth silent-discard
+117.208.0.0/16	auth silent-discard
+117.210.0.0/16	auth silent-discard
+117.211.0.0/17	auth silent-discard
+117.211.128.0/18	auth silent-discard
+117.211.192.0/20	auth silent-discard
+117.211.216.0/22	auth silent-discard
+117.211.224.0/19	auth silent-discard
+117.212.0.0/14	auth silent-discard
+117.216.0.0/13	auth silent-discard
 117.224.0.0/14	auth silent-discard
 117.228.0.0/19	auth silent-discard
 117.228.32.0/20	auth silent-discard
@@ -2309,13 +2322,18 @@
 117.237.0.0/17	auth silent-discard
 117.237.160.0/19	auth silent-discard
 117.237.192.0/18	auth silent-discard
-117.238.0.0/15	auth silent-discard
+117.238.0.0/18	auth silent-discard
+117.238.64.0/20	auth silent-discard
+117.238.128.0/17	auth silent-discard
+117.239.0.0/16	auth silent-discard
 117.240.0.0/13	auth silent-discard
 117.248.0.0/14	auth silent-discard
 117.252.0.0/15	auth silent-discard
 117.254.0.0/17	auth silent-discard
-117.254.128.0/18	auth silent-discard
+117.254.144.0/20	auth silent-discard
+117.254.160.0/19	auth silent-discard
 117.254.192.0/19	auth silent-discard
+117.254.224.0/20	auth silent-discard
 117.255.0.0/16	auth silent-discard
 120.56.0.0/16	auth silent-discard
 120.60.0.0/15	auth silent-discard
@@ -2325,9 +2343,11 @@
 184.25.108.0/24	auth silent-discard
 184.26.184.0/22	auth silent-discard
 184.51.92.0/22	auth silent-discard
-184.84.167.0/24	auth silent-discard
 210.212.0.0/16	auth silent-discard
-218.248.0.0/16	auth silent-discard
+218.248.0.0/18	auth silent-discard
+218.248.64.0/19	auth silent-discard
+218.248.112.0/20	auth silent-discard
+218.248.128.0/17	auth silent-discard
 
 # ASN 10429
 # TELEFONICA-BRASIL TELEFÔNICA BRASIL S.A
@@ -2569,7 +2589,6 @@
 2.57.122.0/24	auth silent-discard
 45.13.37.0/24	auth silent-discard
 45.13.38.0/24	auth silent-discard
-45.13.213.0/24	auth silent-discard
 45.129.15.0/24	auth silent-discard
 45.134.48.0/24	auth silent-discard
 45.138.96.0/23	auth silent-discard
