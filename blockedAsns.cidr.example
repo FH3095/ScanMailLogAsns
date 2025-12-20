@@ -489,8 +489,9 @@
 60.208.0.0/12	auth silent-discard
 60.255.0.0/16	auth silent-discard
 61.49.86.0/24	auth silent-discard
-61.49.173.0/24	auth silent-discard
-61.49.184.0/22	auth silent-discard
+61.49.172.0/23	auth silent-discard
+61.49.184.0/23	auth silent-discard
+61.49.186.0/24	auth silent-discard
 61.52.0.0/14	auth silent-discard
 61.133.0.0/17	auth silent-discard
 61.134.96.0/19	auth silent-discard
@@ -611,6 +612,7 @@
 111.160.0.0/13	auth silent-discard
 111.202.242.0/24	auth silent-discard
 111.202.244.0/24	auth silent-discard
+111.202.246.0/24	auth silent-discard
 111.205.38.0/24	auth silent-discard
 111.205.242.0/24	auth silent-discard
 112.80.0.0/13	auth silent-discard
@@ -711,6 +713,7 @@
 122.192.0.0/14	auth silent-discard
 123.4.0.0/14	auth silent-discard
 123.8.0.0/13	auth silent-discard
+123.108.89.0/24	auth silent-discard
 123.117.141.0/24	auth silent-discard
 123.125.29.0/24	auth silent-discard
 123.128.0.0/13	auth silent-discard
@@ -948,7 +951,7 @@
 14.32.0.0/11	auth silent-discard
 14.64.0.0/11	auth silent-discard
 14.128.128.0/19	auth silent-discard
-14.128.160.0/22	auth silent-discard
+14.128.160.0/20	auth silent-discard
 23.27.1.0/24	auth silent-discard
 23.133.132.0/24	auth silent-discard
 23.133.148.0/24	auth silent-discard
@@ -1319,8 +1322,6 @@
 210.90.0.0/15	auth silent-discard
 210.92.0.0/18	auth silent-discard
 210.93.0.0/17	auth silent-discard
-210.93.128.0/23	auth silent-discard
-210.93.130.0/24	auth silent-discard
 210.95.0.0/16	auth silent-discard
 210.96.0.0/17	auth silent-discard
 210.96.248.0/24	auth silent-discard
@@ -1496,7 +1497,8 @@
 220.67.135.0/24	auth silent-discard
 220.67.138.0/23	auth silent-discard
 220.67.151.0/24	auth silent-discard
-220.67.152.0/22	auth silent-discard
+220.67.153.0/24	auth silent-discard
+220.67.154.0/23	auth silent-discard
 220.67.156.0/24	auth silent-discard
 220.67.171.0/24	auth silent-discard
 220.67.178.0/23	auth silent-discard
@@ -2174,6 +2176,8 @@
 61.105.0.0/16	auth silent-discard
 61.253.0.0/16	auth silent-discard
 61.254.0.0/15	auth silent-discard
+64.205.231.0/24	auth silent-discard
+69.33.21.0/24	auth silent-discard
 82.41.3.0/24	auth silent-discard
 101.55.16.0/24	auth silent-discard
 103.6.80.0/22	auth silent-discard
@@ -2236,6 +2240,7 @@
 158.173.197.0/24	auth silent-discard
 158.173.205.0/24	auth silent-discard
 158.173.208.0/24	auth silent-discard
+163.5.9.0/24	auth silent-discard
 163.152.204.0/22	auth silent-discard
 163.152.208.0/20	auth silent-discard
 163.152.224.0/20	auth silent-discard
@@ -2575,6 +2580,7 @@
 223.143.128.0/19	auth silent-discard
 223.143.192.0/19	auth silent-discard
 223.143.224.0/20	auth silent-discard
+223.143.240.0/22	auth silent-discard
 
 # ASN 45899
 # VNPT-AS-VN VNPT Corp
