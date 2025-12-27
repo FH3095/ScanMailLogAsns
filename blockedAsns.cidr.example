@@ -304,6 +304,7 @@
 202.125.176.0/20	auth silent-discard
 202.141.160.0/20	auth silent-discard
 203.33.32.0/24	auth silent-discard
+203.33.63.0/24	auth silent-discard
 203.33.64.0/24	auth silent-discard
 203.33.145.0/24	auth silent-discard
 203.33.156.0/24	auth silent-discard
@@ -561,6 +562,7 @@
 103.85.84.0/23	auth silent-discard
 103.90.92.0/22	auth silent-discard
 103.98.44.0/22	auth silent-discard
+103.110.132.0/22	auth silent-discard
 103.114.100.0/22	auth silent-discard
 103.116.138.0/23	auth silent-discard
 103.120.224.0/22	auth silent-discard
@@ -1041,7 +1043,6 @@
 110.92.20.0/23	auth silent-discard
 110.92.22.0/24	auth silent-discard
 110.93.120.0/21	auth silent-discard
-110.172.189.0/24	auth silent-discard
 111.92.188.0/23	auth silent-discard
 111.92.191.0/24	auth silent-discard
 112.160.0.0/11	auth silent-discard
@@ -1053,9 +1054,6 @@
 113.198.92.0/23	auth silent-discard
 113.198.181.0/24	auth silent-discard
 113.198.182.0/23	auth silent-discard
-113.198.195.0/24	auth silent-discard
-114.69.244.0/24	auth silent-discard
-114.69.247.0/24	auth silent-discard
 114.70.27.0/24	auth silent-discard
 114.70.28.0/22	auth silent-discard
 114.70.32.0/23	auth silent-discard
@@ -1497,8 +1495,7 @@
 220.67.135.0/24	auth silent-discard
 220.67.138.0/23	auth silent-discard
 220.67.151.0/24	auth silent-discard
-220.67.153.0/24	auth silent-discard
-220.67.154.0/23	auth silent-discard
+220.67.152.0/22	auth silent-discard
 220.67.156.0/24	auth silent-discard
 220.67.171.0/24	auth silent-discard
 220.67.178.0/23	auth silent-discard
@@ -2149,6 +2146,7 @@
 203.190.160.0/22	auth silent-discard
 203.190.164.0/23	auth silent-discard
 203.190.170.0/23	auth silent-discard
+203.190.172.0/23	auth silent-discard
 203.190.175.0/24	auth silent-discard
 220.231.64.0/18	auth silent-discard
 
@@ -2598,7 +2596,6 @@
 45.124.92.0/22	auth silent-discard
 45.254.32.0/22	auth silent-discard
 103.9.76.0/22	auth silent-discard
-103.10.44.0/22	auth silent-discard
 103.15.90.0/23	auth silent-discard
 103.42.56.0/22	auth silent-discard
 103.48.191.0/24	auth silent-discard
