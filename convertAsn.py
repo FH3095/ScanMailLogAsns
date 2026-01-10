@@ -3,8 +3,8 @@
 import sys, os, json, gzip
 
 def readAsnIps(data, asn, ips):
-	if 'subnets' in data and 'ipv4' in data['subnets']:
-		for ip4Str in data['subnets']['ipv4']:
+	if 'prefixes' in data and 'ipv4' in data['prefixes']:
+		for ip4Str in data['prefixes']['ipv4']:
 			ip4 = ip4Str.strip()
 			if not ip4 in ips:
 				ips[ip4] = []
@@ -12,10 +12,12 @@ def readAsnIps(data, asn, ips):
 
 def readAsnName(data, asn, asns):
 	asns[asn] = {}
-	if 'handle' in data:
-		asns[asn]['name'] = data['handle']
-	if 'description' in data:
-		asns[asn]['desc'] = data['description']
+	if 'metadata' in data:
+		metadata = data['metadata']
+		if 'handle' in metadata:
+			asns[asn]['name'] = metadata['handle']
+		if 'description' in metadata:
+			asns[asn]['desc'] = metadata['description']
 
 def readAsns(asnPath):
 	asns = {}

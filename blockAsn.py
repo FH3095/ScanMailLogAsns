@@ -5,14 +5,15 @@ import sys, os, json, gzip
 IP_LINE = 'auth silent-discard'
 
 def getCidrLinesForAsn(asn):
+	print("Generate cidr-lines for", asn)
 	result = '# ASN ' + str(asn) + '\n'
 	filePath = 'asn-ip/as/' + str(asn) + '/aggregated.json'
 	if os.path.isfile(filePath):
 		with open(filePath, mode='rt') as f:
 			data = json.load(f)
-			result = result + '# ' + str(data['handle']) + ' ' + str(data['description']) + '\n'
-			if 'subnets' in data and 'ipv4' in data['subnets']:
-				for ip4 in data['subnets']['ipv4']:
+			result = result + '# ' + str(data['metadata']['handle']) + ' ' + str(data['metadata']['description']) + '\n'
+			if 'prefixes' in data and 'ipv4' in data['prefixes']:
+				for ip4 in data['prefixes']['ipv4']:
 					result = result + ip4 + '\t' + IP_LINE + '\n'
 	result = result + '\n'
 	return result
