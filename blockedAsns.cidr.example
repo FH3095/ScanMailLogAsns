@@ -1217,6 +1217,7 @@
 151.246.254.0/24	auth silent-discard
 151.247.140.0/23	auth silent-discard
 151.247.154.0/23	auth silent-discard
+153.51.88.0/21	auth silent-discard
 156.227.13.0/24	auth silent-discard
 160.202.160.0/24	auth silent-discard
 160.202.173.0/24	auth silent-discard
@@ -1231,7 +1232,12 @@
 165.133.0.0/17	auth silent-discard
 168.93.224.0/24	auth silent-discard
 168.126.0.0/16	auth silent-discard
+168.222.1.0/24	auth silent-discard
 168.222.8.0/23	auth silent-discard
+168.222.11.0/24	auth silent-discard
+168.222.63.0/24	auth silent-discard
+168.222.123.0/24	auth silent-discard
+168.222.124.0/24	auth silent-discard
 168.248.86.0/24	auth silent-discard
 168.248.255.0/24	auth silent-discard
 169.208.0.0/12	auth silent-discard
@@ -1855,7 +1861,6 @@
 118.194.32.0/21	auth silent-discard
 118.194.48.0/21	auth silent-discard
 118.194.240.0/21	auth silent-discard
-118.199.0.0/16	auth silent-discard
 118.244.128.0/18	auth silent-discard
 118.244.240.0/20	auth silent-discard
 118.247.0.0/16	auth silent-discard
@@ -2215,10 +2220,15 @@
 # ASN 9318
 # SKB-AS SK Broadband Co Ltd
 1.224.0.0/11	auth silent-discard
+2.57.18.0/24	auth silent-discard
+23.27.114.0/24	auth silent-discard
 23.142.12.0/24	auth silent-discard
+37.202.203.0/24	auth silent-discard
 39.112.0.0/12	auth silent-discard
 43.230.0.0/22	auth silent-discard
+43.242.136.0/24	auth silent-discard
 45.14.234.0/23	auth silent-discard
+45.45.209.0/24	auth silent-discard
 49.128.200.0/24	auth silent-discard
 49.128.202.0/24	auth silent-discard
 49.128.204.0/24	auth silent-discard
@@ -2366,7 +2376,6 @@
 175.197.53.0/24	auth silent-discard
 178.83.16.0/24	auth silent-discard
 178.83.26.0/24	auth silent-discard
-178.83.28.0/22	auth silent-discard
 178.83.36.0/24	auth silent-discard
 178.83.46.0/24	auth silent-discard
 178.83.56.0/24	auth silent-discard
@@ -2394,6 +2403,8 @@
 203.249.88.0/21	auth silent-discard
 203.249.126.0/23	auth silent-discard
 203.253.0.0/19	auth silent-discard
+209.92.191.0/24	auth silent-discard
+209.178.234.0/24	auth silent-discard
 210.93.0.0/22	auth silent-discard
 210.93.4.0/23	auth silent-discard
 210.94.0.0/19	auth silent-discard
@@ -2463,6 +2474,9 @@
 211.244.0.0/15	auth silent-discard
 211.252.64.0/22	auth silent-discard
 211.252.68.0/23	auth silent-discard
+212.47.36.0/24	auth silent-discard
+217.144.158.0/24	auth silent-discard
+217.217.223.0/24	auth silent-discard
 218.36.128.0/17	auth silent-discard
 218.38.0.0/15	auth silent-discard
 218.48.0.0/13	auth silent-discard
@@ -2681,7 +2695,7 @@
 223.143.128.0/18	auth silent-discard
 223.143.192.0/19	auth silent-discard
 223.143.224.0/20	auth silent-discard
-223.143.240.0/22	auth silent-discard
+223.143.240.0/21	auth silent-discard
 
 # ASN 45899
 # VNPT-AS-VN VNPT Corp
@@ -2891,6 +2905,7 @@
 46.63.240.0/20	auth silent-discard
 46.150.224.0/20	auth silent-discard
 46.158.0.0/15	auth silent-discard
+46.172.160.0/19	auth silent-discard
 46.235.160.0/21	auth silent-discard
 46.235.216.0/21	auth silent-discard
 46.237.0.0/19	auth silent-discard
@@ -3317,6 +3332,7 @@
 92.61.68.0/23	auth silent-discard
 92.100.0.0/15	auth silent-discard
 92.124.0.0/14	auth silent-discard
+92.242.45.0/24	auth silent-discard
 92.252.128.0/17	auth silent-discard
 93.90.240.0/20	auth silent-discard
 93.120.128.0/17	auth silent-discard
