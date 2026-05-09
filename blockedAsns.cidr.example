@@ -2239,7 +2239,6 @@
 # ASN 9318
 # SKB-AS SK Broadband Co Ltd
 1.224.0.0/11	auth silent-discard
-2.57.18.0/24	auth silent-discard
 23.27.114.0/24	auth silent-discard
 37.202.203.0/24	auth silent-discard
 39.112.0.0/12	auth silent-discard
@@ -2546,8 +2545,8 @@
 59.176.0.0/17	auth silent-discard
 59.177.0.0/16	auth silent-discard
 59.178.0.0/16	auth silent-discard
-59.180.0.0/20	auth silent-discard
-59.180.64.0/20	auth silent-discard
+59.180.0.0/19	auth silent-discard
+59.180.64.0/19	auth silent-discard
 59.182.0.0/15	auth silent-discard
 59.184.0.0/16	auth silent-discard
 61.0.0.0/14	auth silent-discard
@@ -2570,7 +2569,12 @@
 120.59.192.0/20	auth silent-discard
 120.60.0.0/15	auth silent-discard
 120.62.0.0/16	auth silent-discard
+120.63.0.0/20	auth silent-discard
 160.30.8.0/24	auth silent-discard
+182.57.64.0/20	auth silent-discard
+182.59.64.0/19	auth silent-discard
+182.59.96.0/20	auth silent-discard
+182.59.192.0/18	auth silent-discard
 182.60.0.0/16	auth silent-discard
 184.25.108.0/24	auth silent-discard
 184.26.184.0/22	auth silent-discard
@@ -2874,6 +2878,7 @@
 37.76.128.0/18	auth silent-discard
 37.78.0.0/15	auth silent-discard
 45.80.64.0/22	auth silent-discard
+45.93.81.0/24	auth silent-discard
 46.41.64.0/18	auth silent-discard
 46.45.192.0/20	auth silent-discard
 46.45.211.0/24	auth silent-discard
