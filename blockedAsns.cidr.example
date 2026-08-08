@@ -1006,8 +1006,6 @@
 23.133.244.0/24	auth silent-discard
 23.134.4.0/24	auth silent-discard
 23.134.220.0/24	auth silent-discard
-23.231.62.0/23	auth silent-discard
-23.231.80.0/23	auth silent-discard
 27.96.136.0/21	auth silent-discard
 27.232.0.0/13	auth silent-discard
 27.255.64.0/24	auth silent-discard
@@ -1016,7 +1014,6 @@
 31.56.244.0/23	auth silent-discard
 31.77.176.0/23	auth silent-discard
 31.77.182.0/23	auth silent-discard
-31.77.190.0/23	auth silent-discard
 39.4.0.0/14	auth silent-discard
 39.16.0.0/12	auth silent-discard
 43.228.160.0/22	auth silent-discard
@@ -1057,8 +1054,6 @@
 68.167.128.0/23	auth silent-discard
 71.19.135.0/24	auth silent-discard
 74.124.196.0/24	auth silent-discard
-77.67.126.0/23	auth silent-discard
-79.135.102.0/23	auth silent-discard
 82.22.240.0/24	auth silent-discard
 82.23.198.0/24	auth silent-discard
 82.23.240.0/24	auth silent-discard
@@ -1069,8 +1064,6 @@
 82.24.250.0/24	auth silent-discard
 82.25.208.0/24	auth silent-discard
 82.25.211.0/24	auth silent-discard
-82.206.2.0/23	auth silent-discard
-82.206.76.0/23	auth silent-discard
 84.37.2.0/24	auth silent-discard
 84.37.17.0/24	auth silent-discard
 84.37.23.0/24	auth silent-discard
@@ -1274,7 +1267,6 @@
 169.208.0.0/12	auth silent-discard
 172.120.240.0/24	auth silent-discard
 172.120.243.0/24	auth silent-discard
-173.44.254.0/23	auth silent-discard
 175.45.224.0/20	auth silent-discard
 175.176.138.0/24	auth silent-discard
 175.192.0.0/10	auth silent-discard
@@ -1288,8 +1280,6 @@
 185.87.56.0/24	auth silent-discard
 185.137.14.0/23	auth silent-discard
 188.220.134.0/23	auth silent-discard
-188.220.138.0/23	auth silent-discard
-188.220.208.0/23	auth silent-discard
 188.221.154.0/23	auth silent-discard
 192.6.194.0/23	auth silent-discard
 192.25.216.0/23	auth silent-discard
@@ -1915,7 +1905,10 @@
 118.144.128.0/17	auth silent-discard
 118.194.32.0/21	auth silent-discard
 118.194.48.0/21	auth silent-discard
-118.194.240.0/21	auth silent-discard
+118.194.240.0/24	auth silent-discard
+118.194.242.0/23	auth silent-discard
+118.194.244.0/24	auth silent-discard
+118.194.246.0/23	auth silent-discard
 118.244.128.0/18	auth silent-discard
 118.244.240.0/20	auth silent-discard
 118.247.0.0/16	auth silent-discard
@@ -2129,8 +2122,6 @@
 210.75.96.0/19	auth silent-discard
 210.77.32.0/19	auth silent-discard
 210.77.180.0/23	auth silent-discard
-210.77.184.0/24	auth silent-discard
-210.77.190.0/24	auth silent-discard
 210.77.192.0/18	auth silent-discard
 210.79.224.0/19	auth silent-discard
 210.82.0.0/17	auth silent-discard
@@ -2861,8 +2852,6 @@
 193.32.162.0/24	auth silent-discard
 193.46.254.0/23	auth silent-discard
 193.47.69.0/24	auth silent-discard
-207.182.48.0/21	auth silent-discard
-207.182.56.0/22	auth silent-discard
 
 # ASN 48090
 # DMZHOST TECHOFF SRV LIMITED
