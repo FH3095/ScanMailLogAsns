@@ -460,7 +460,6 @@
 43.243.228.0/22	auth silent-discard
 43.247.4.0/24	auth silent-discard
 43.248.108.0/22	auth silent-discard
-43.248.192.0/20	auth silent-discard
 43.248.244.0/22	auth silent-discard
 43.249.136.0/22	auth silent-discard
 43.249.236.0/22	auth silent-discard
@@ -576,7 +575,7 @@
 103.43.134.0/23	auth silent-discard
 103.44.80.0/22	auth silent-discard
 103.45.76.0/22	auth silent-discard
-103.45.160.0/23	auth silent-discard
+103.45.160.0/24	auth silent-discard
 103.56.60.0/22	auth silent-discard
 103.59.124.0/22	auth silent-discard
 103.63.160.0/21	auth silent-discard
@@ -710,8 +709,6 @@
 118.72.0.0/13	auth silent-discard
 118.80.0.0/15	auth silent-discard
 118.88.32.0/19	auth silent-discard
-118.88.64.0/18	auth silent-discard
-118.88.128.0/17	auth silent-discard
 118.191.4.0/22	auth silent-discard
 118.191.8.0/22	auth silent-discard
 118.191.12.0/24	auth silent-discard
@@ -1044,7 +1041,6 @@
 61.251.188.0/24	auth silent-discard
 61.252.32.0/20	auth silent-discard
 64.81.172.0/23	auth silent-discard
-65.86.144.0/23	auth silent-discard
 67.220.69.0/24	auth silent-discard
 68.167.128.0/23	auth silent-discard
 71.19.135.0/24	auth silent-discard
@@ -1053,6 +1049,9 @@
 79.180.2.0/23	auth silent-discard
 79.180.34.0/23	auth silent-discard
 79.180.64.0/23	auth silent-discard
+79.180.102.0/23	auth silent-discard
+79.180.132.0/23	auth silent-discard
+79.180.236.0/23	auth silent-discard
 79.180.254.0/23	auth silent-discard
 82.22.240.0/24	auth silent-discard
 82.23.198.0/24	auth silent-discard
@@ -1067,6 +1066,7 @@
 84.37.2.0/24	auth silent-discard
 84.37.17.0/24	auth silent-discard
 84.37.23.0/24	auth silent-discard
+84.75.68.0/23	auth silent-discard
 85.155.90.0/23	auth silent-discard
 89.30.184.0/23	auth silent-discard
 93.152.68.0/24	auth silent-discard
@@ -1079,6 +1079,10 @@
 93.152.111.0/24	auth silent-discard
 93.152.123.0/24	auth silent-discard
 93.152.126.0/24	auth silent-discard
+94.116.60.0/22	auth silent-discard
+94.116.156.0/22	auth silent-discard
+94.116.200.0/22	auth silent-discard
+94.116.228.0/22	auth silent-discard
 94.194.52.0/22	auth silent-discard
 94.194.140.0/22	auth silent-discard
 94.194.160.0/22	auth silent-discard
@@ -1109,6 +1113,7 @@
 104.140.8.0/23	auth silent-discard
 104.253.103.0/24	auth silent-discard
 104.253.127.0/24	auth silent-discard
+109.65.16.0/23	auth silent-discard
 109.66.90.0/23	auth silent-discard
 109.66.168.0/21	auth silent-discard
 109.66.234.0/23	auth silent-discard
@@ -1276,8 +1281,6 @@
 175.176.138.0/24	auth silent-discard
 175.192.0.0/10	auth silent-discard
 177.202.126.0/23	auth silent-discard
-178.94.50.0/23	auth silent-discard
-178.94.124.0/23	auth silent-discard
 179.198.0.0/22	auth silent-discard
 179.198.12.0/22	auth silent-discard
 179.198.16.0/22	auth silent-discard
@@ -1301,7 +1304,6 @@
 192.100.68.0/24	auth silent-discard
 192.120.124.0/23	auth silent-discard
 192.120.210.0/23	auth silent-discard
-192.137.120.0/23	auth silent-discard
 192.170.106.0/23	auth silent-discard
 192.245.251.0/24	auth silent-discard
 194.231.144.0/22	auth silent-discard
@@ -2292,8 +2294,7 @@
 49.128.213.0/24	auth silent-discard
 50.114.114.0/24	auth silent-discard
 51.146.234.0/24	auth silent-discard
-51.146.238.0/24	auth silent-discard
-51.241.162.0/23	auth silent-discard
+51.241.162.0/24	auth silent-discard
 58.120.0.0/13	auth silent-discard
 58.224.0.0/12	auth silent-discard
 59.11.43.0/24	auth silent-discard
@@ -2402,7 +2403,6 @@
 175.112.0.0/12	auth silent-discard
 175.176.143.0/24	auth silent-discard
 175.197.53.0/24	auth silent-discard
-178.253.229.0/24	auth silent-discard
 180.64.0.0/13	auth silent-discard
 182.237.58.0/24	auth silent-discard
 192.245.249.0/24	auth silent-discard
@@ -2494,8 +2494,6 @@
 211.244.0.0/15	auth silent-discard
 211.252.64.0/22	auth silent-discard
 211.252.68.0/23	auth silent-discard
-212.47.36.0/24	auth silent-discard
-212.66.53.0/24	auth silent-discard
 212.74.35.0/24	auth silent-discard
 218.36.128.0/17	auth silent-discard
 218.38.0.0/15	auth silent-discard
@@ -2667,6 +2665,8 @@
 
 # ASN 17421
 # EMOME-NET Mobile Business Group
+42.64.0.0/16	auth silent-discard
+42.66.0.0/16	auth silent-discard
 42.70.0.0/15	auth silent-discard
 42.72.0.0/13	auth silent-discard
 111.70.0.0/18	auth silent-discard
